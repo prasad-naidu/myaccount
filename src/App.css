@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.app-main{
+  display: flex;
+    justify-content: space-between;
+    width: 95%; 
+}
+
+.app-main p{
+  color: red;
+}
+ #anchor1{
+  margin-right: 10px;
+  color: #adadad;
+}
+#anchor2{
+  margin-right: 10px;
+  margin-left: 20px;
+  color: #adadad;
+}
+#anchor2:hover a{
+color: skyblue;
+}
+.main{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.profile-div img{
+  margin-top: 20px;
+  border-radius: 50%;
+}
+#icon{
+  background: #ebf2ff;
+  width: 50px;
+  height: 46px;
+  margin-left: 37px;
+}
+
+.form{
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+.form input{
+  width: 267px;
+  border-radius: 5px;
+}
+.email input{
+  width: 267px;
+  border-radius: 5px;
+
+}
+.save button{
+  margin-top: 50px;
+  background: #51b53f;
+  border-radius: 5px;
+  width: 145px;
+  color: aliceblue;
+}
+.table-div{
+  width: 50%;
+  margin-top: 66px;
+}
+
+.MuiTableCell-head{
+  color: #adadad;
+
+}
+#pdf{
+   width: 27px;
+  height: 24px;
+}
+.card-div{
+  display: flex;
+}
+
+.card-div :hover{
+  background: springgreen;
+  color: #ebf2ff;
+}
+.card-sub{
+  margin-top: 20px;
+  margin-right: 100px;
+  width: 200px;
+  height: 300px;
+}
+.card-sub img{
+  width: 13px;
+}
+#card-button{
+  width: 184px;
+  height: 36px;
+  color: blue;
+  background-color: #91a59e6e;
+  font-family: sans-serif;
+  margin-left: 22px;
+}
+.license-div{
+  margin-top: 30px;
+  width: 200px;
+  height: 94px;
+  background-color: #91a59e42;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 12px;
+}
+
+.license-div h4{
+  font-size: 18px;
+}
+.save1 button{
+  margin-left: 10px;
+    color: aliceblue;
+    background-color: green;
+    margin-top: 20px;
+    border-radius: 5px;
+}
